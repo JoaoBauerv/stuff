@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "bootstrap-calendar": "^0.2.4",
+    "bootstrap-icons": "^1.13.1"
+  }
+}
