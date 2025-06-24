@@ -7,7 +7,7 @@
         <h1> Cadastrar Proprietário </h1>
         <div class="d-flex justify-content-center align-items-center" style="min-height: 40vh;">
             
-            <form method="POST" action="/crud/functions/proprietario/registrar.php" class="w-100" style="max-width: 600px;">
+            <form method="POST" action="/CarManager/functions/proprietario/registrar.php" class="w-100" style="max-width: 600px;">
                 <div class="row g-3">
 
                     <div class="col-md-12">

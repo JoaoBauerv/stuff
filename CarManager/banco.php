@@ -6,7 +6,7 @@
 // senha
 
 $endereco = 'localhost';
-$banco = 'crud';
+$banco = 'CarManager';
 $usuario = 'root';
 $senha = '';
 

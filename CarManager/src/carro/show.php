@@ -68,7 +68,7 @@
                 echo "<td>" . $row["nome"] . "</td>";
                 echo '<td class=" gap-2">';
                 echo '<a href="edit.php?id=' . $row["id"] .'" class="btn btn-sm btn-warning">Editar</a>';
-                echo '<form action="/crud/functions/carro/deletar.php?id=' . $row["id"] .'" method="post" style="display:inline;">';
+                echo '<form action="/CarManager/functions/carro/deletar.php?id=' . $row["id"] .'" method="post" style="display:inline;">';
                 
                 echo '<button type="submit" class="btn btn-sm btn-danger">Excluir</button>';
                 echo '</form>';

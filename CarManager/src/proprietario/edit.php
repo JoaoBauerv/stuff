@@ -14,7 +14,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
     <main>
 
         <div class="d-flex justify-content-center align-items-center" style="min-height: 40vh;">
-            <form method="POST" action="/crud/functions/proprietario/editar.php?id=<?php echo $row["id"] ?>" class="w-100" style="max-width: 600px;">
+            <form method="POST" action="/CarManager/functions/proprietario/editar.php?id=<?php echo $row["id"] ?>" class="w-100" style="max-width: 600px;">
                 <div class="row g-3">
 
                     <div class="col-md-12">

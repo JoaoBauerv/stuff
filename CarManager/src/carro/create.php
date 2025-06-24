@@ -8,7 +8,7 @@
     <main>
         <h1> Cadastrar Carro </h1>
         <div class="d-flex justify-content-center align-items-center" style="min-height: 60vh;">
-            <form method="POST" action="/crud/functions/carro/registrar.php" class="w-100" style="max-width: 600px;">
+            <form method="POST" action="/CarManager/functions/carro/registrar.php" class="w-100" style="max-width: 600px;">
                 <div class="row g-3">
                     <div class="col-md-12">
                         <label for="marca" class="form-label">Marca</label>
