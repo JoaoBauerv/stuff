@@ -3,13 +3,42 @@
 require_once 'banco.php';
 
 var_dump($_POST);
+echo '<br>';
+
+$trimestreSelecionado = intval($_POST['trimestre']);
+$trimestreAnterior = intval($trimestreSelecionado) - 1;
+
+
+echo '<br>';
+echo 'Trimestre Selecionado:' .  $trimestreSelecionado;
+
+echo '<br>';
+echo '<br>';
+echo 'Trimestre anterior:' . $trimestreAnterior;
+
+echo '<br>';
+echo '<br>';
+$anoAtual = date('Y');
+var_dump($anoAtual);
+
+$stmt = $pdo->prepare("SELECT * FROM tb_ ORDER BY id_usuario;");
+$stmt->execute();
+
 exit;
 
+
 // Determinar o trimestre atual
-$hoje = new DateTime();
-$anoAtual = $hoje->format('Y');
-$mes = (int)$hoje->format('m');
-$trimestreAtual = ceil($mes / 3);
+
+
+
+$stmt = $pdo->prepare("SELECT * FROM tb_usuario ORDER BY id_usuario;");
+$stmt->execute();
+$rowCount = $stmt->rowCount();
+
+
+
+
+
 
 // Buscar IDs das pessoas sorteadas nos últimos 2 trimestres
 $trimestresExcluidos = [];

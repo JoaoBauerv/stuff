@@ -15,7 +15,7 @@ try {
   // usuario
   // senha
   // errmode
-  $pdo = new PDO("mysql:host=$endereco;port=3306;dbname=$banco", $usuario, $senha, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+  $pdo = new PDO("mysql:host=$endereco;port=3307;dbname=$banco", $usuario, $senha, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
   //echo "Conectado no banco de dados!!!";
 

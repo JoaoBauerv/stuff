@@ -6,8 +6,6 @@ require_once 'banco.php';
 
 
 
-
-
 try {
     $sql = "INSERT INTO tb_pessoas (nome) 
             VALUES (:nome)";

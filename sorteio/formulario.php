@@ -19,7 +19,7 @@ require_once 'banco.php';
         <h2>Sorteio Trimestral</h2>
         <form method="post" action="sorteio.php">
             <label>Trimestre:</label>
-            <input type="number" name="trismestre">
+            <input type="number" name="trimestre">
             <button type="submit" name="sortear">Realizar Sorteio</button>
         </form>
 
